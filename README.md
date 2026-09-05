@@ -11,12 +11,12 @@ There are two components to the coursework:
     - **Evidence of time-tracking/project management.** This will be assessed orally at the start of Summer term. See [here](docs/management.md) for more information about this component.
 
 # Feedback
-## Overall:
+## Overall:
 - Total Tests Passed: 127/201 (63.18%)
     - Seen Tests Passed: 70/86 (81.40%)
     - Unseen Tests Passed: 57/115 (49.57%)
 
-## Code Quality:
+## Code Quality:
 - Class declarations and implementations are nicely split between hpp and cpp files.
 - Clean file structure of AST.
 - Class inheritance is well-designed and maps nicely onto the grammar.
