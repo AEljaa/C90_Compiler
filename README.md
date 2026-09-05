@@ -1,14 +1,22 @@
 2023/24 Compilers Coursework
 ==============================
 
-There are two components to the coursework:
+# Overview
+This project implements a C90 to RISC-V32I compiler using C++. 
+The compiler supports:
+- Integer arithmetic, comparisons, logical operations, and bitwise operations
+- Selected unary operations
+- Local and global variables
+- Internal and external function calls
+- Recursive functions
+- Arrays and array indexing
+- Pointers, address operations, and pointer arithmetic
+- Characters and strings
+- if, if-else, for, and while control flow
+- Integer and character sizeof operations
+- Unsigned integers
 
-- Worth 90%:
-    - **A C compiler**. The source language is pre-processed C90, and the target language is RISC-V assembly. The target environment is Ubuntu 22.04, as described [here](docs/environment_guide.md). See [here](docs/c_compiler.md) for the full set of requirements and more information about the testing environment.
-
-- Worth 10%:
-    - **Overall design style and code readability.** This has been introduced to reward thoughtful planning throughout the project, rather than penalise you. There are no strict guidelines, but you should consider the use of abstraction, your internal representation of instructions, proper Git use, signs of appropriate testing, as well as general code hygiene.
-    - **Evidence of time-tracking/project management.** This will be assessed orally at the start of Summer term. See [here](docs/management.md) for more information about this component.
+Support for floats, doubles, enums, switch statements, structs, typedefs, and some variable-scoping cases was not fully completed.
 
 # Feedback
 ## Overall:
